@@ -5,8 +5,7 @@ import DisplayTodo from './components/DisplayTodo';
 
 function App() {
   const [todoList, setTodoList] = useState([
-    { text: 'wash dishes', isComplete: false },
-    { text: 'fold clothes', isComplete: false }
+    { text: 'wash dishes', isComplete: false }
   ]);
 
   return (
